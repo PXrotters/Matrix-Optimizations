@@ -1,0 +1,5 @@
+Run=./src/tema3_opt_m: N=200: Time=0.059677
+Run=./src/tema3_opt_m: N=400: Time=0.463116
+Run=./src/tema3_opt_m: N=600: Time=1.549367
+Run=./src/tema3_opt_m: N=1000: Time=7.142748
+Run=./src/tema3_opt_m: N=1200: Time=12.421175
