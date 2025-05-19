@@ -55,7 +55,7 @@ La rularea *valgrind* folosind *cachegrind* se pot observa:
 | **Optimizata**      | 5 609 373 607 | 2 253 321 174 |     0.8 %    |   123 009  | 82 289 891  |      5.3 %      | 26.37
 | **Blas**            |  487 143 110  |  179 193 829  |     9.7 %    |   139 610  |  9 273 240  |      1.5 %      | 5.01
 
-![Metrici cachegrind](grafice.png)
+![Metrici cachegrind](cache_metrics.png)
 
 **Neoptimizata:**
 - Se poate observa faptul ca in aceasta varianta procesorul executa si acceseaza un numar foarte mare de instructiuni (*I refs* -> instructiuni citite; *D refs* -> numar total de accesari de date)
@@ -76,7 +76,7 @@ La rularea *valgrind* folosind *cachegrind* se pot observa:
 - Cel mai mic numar de *branches* si *misspredicts* datorita buclelor vectorizate generate automat
 
 **Performanta comparativa:**
-![Grafic performanta](grafice.png)
+![Grafic performanta](performance.png)
 
 - Am ales sa testez pentru N cu valorile de 200, 400, 600, 1000, 1200, astfel incat sa am o plaja de testare mai mare (cu un N mai mic = 200 si unul mai mare = 1200)
 
